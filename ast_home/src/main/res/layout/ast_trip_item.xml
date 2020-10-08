@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    app:dragEdge="right"
+    app:mode="same_level">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_Show"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/c5F6E6A"
+            android:text="編輯"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/button_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/c74A8A4"
+            android:text="刪除"
+            android:textColor="@android:color/background_light" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sketch_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/t1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sketch_menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_more" />
+
+        <TextView
+            android:id="@+id/sketch_t01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="TextView1"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/sketch_t02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="10dp"
+            android:text="TextView"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

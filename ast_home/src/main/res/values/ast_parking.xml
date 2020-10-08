@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ast_parking_t001">地點</string>
+    <string name="ast_parking_t002">路段範圍</string>
+    <string name="ast_parking_t003">收費價格</string>
+    <string name="ast_parking_t004">收費時間</string>
+    <string name="ast_parking_t005">備註</string>
+</resources>

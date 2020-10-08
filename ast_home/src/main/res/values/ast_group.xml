@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="group_addfolder">新增群組</string>
+    <string name="group_foldername">群組名稱</string>
+    <string name="group_okbtn">確定</string>
+    <string name="group_calbtn">取消</string>
+    <string name="group_list">台中三日遊</string>
+    <string name="group_map_addfriend">添加好友</string>
+    <string name="group_map_point">集合點</string>
+    <string name="group_map_alert">鬧鐘</string>
+    <string name="list_error">最多新增5個!!!</string>
+    <string name="group_calfolder">刪除群組</string>
+    <string name="group_setalert">設定鬧鐘</string>
+    <string name="group_alert_show_time">剩餘時間</string>
+    <string name="error_msg">請重新設定鬧鐘</string>
+    <string name="group_search">搜尋</string>
+    <string name="group_setpoint">設定集合點</string>
+    <string name="point_check_text">設此為集合點</string>
+    <string name="group_point_navigation">導航</string>
+    <string name="point_cancel">取消設定</string>
+    <string name="point_close">關閉定位</string>
+    <string name="group_name">群組名稱不可空白</string>
+    <string name="group_calset">重置鬧鐘</string>
+    <string name="group_friendemail">好友信箱</string>
+    <string name="group_friend_edit">請輸入信箱</string>
+    <string name="point_quit">離開</string>
+    <string name="map_not_ready">Map 設置未完成</string>
+    <string name="nothisview">查無此景點</string>
+    <string name="more_group">最多呈現五筆資料</string>
+    <string name="delete_group">確定要刪除所有資料嗎?</string>
+    <string name="delete_group_title">刪除群組</string>
+    <string name="m0902_positive">是</string>
+    <string name="m0902_negative">否</string>
+</resources>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ast__home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:orientation="vertical"
+    tools:context=".Ast_Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/GrayF0F0F0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/home_img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/photo" />
+
+                <ImageButton
+                    android:id="@+id/account"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/margin20"
+                    android:layout_marginEnd="@dimen/margin20"
+                    android:background="@mipmap/iconfinder_user" />
+
+                <LinearLayout
+                    android:id="@+id/header_inner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="clip_horizontal|center|center_horizontal"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/whereToGo"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/mini_page"
+                        android:text="@string/whereToGo"
+                        android:textColor="@color/c44514D"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/check"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="@dimen/margin15"
+                        android:background="@drawable/rounded_rectangle"
+                        android:drawableRight="@drawable/navigation_white"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/padding15"
+                        android:paddingRight="@dimen/padding15"
+                        android:text="@string/check"
+                        android:textColor="@color/White" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/nearby"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/White"
+                android:orientation="vertical"
+                android:padding="@dimen/padding15">
+
+                <TextView
+                    android:id="@+id/nearby_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:text="@string/nearby_title"
+                    android:textColor="@color/c44514D"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin15"
+                    android:layout_marginBottom="@dimen/margin15"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageButton
+                        android:id="@+id/nearby_imgBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/map"
+                        android:scaleType="centerCrop"
+                        android:visibility="visible" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hotelFinder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/White"
+                android:orientation="vertical"
+                android:padding="@dimen/padding15">
+
+                <TextView
+                    android:id="@+id/trivago"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:text="@string/trivago"
+                    android:textColor="@color/c2C302E"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin15"
+                    android:layout_marginBottom="@dimen/margin15"
+                    app:cardCornerRadius="20dp">>
+
+                    <ImageButton
+                        android:id="@+id/hotel_imgBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/hotel_img" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/myTrips"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/c2C302E"
+                android:orientation="vertical"
+                android:padding="@dimen/padding15">
+
+                <TextView
+                    android:id="@+id/home_title_myTrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:text="@string/home_t_myTrip"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/margin15"
+                    android:layout_marginBottom="@dimen/margin10">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageButton
+                                android:id="@+id/trips01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/trips01"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/trips01" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin15"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageButton
+                                android:id="@+id/trips02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/trips02"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/trips02" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin15"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageButton
+                                android:id="@+id/trips03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/trips03"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/trips03" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin15"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageButton
+                                android:id="@+id/trips04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/trips04"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/trips04" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin15"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageButton
+                                android:id="@+id/trips_add"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:background="@color/GrayE0E0E0"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@android:drawable/ic_menu_add" />
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/entertainment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/White"
+                android:orientation="vertical"
+                android:padding="@dimen/margin15">
+
+                <TextView
+                    android:id="@+id/recentlyAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:text="@string/recentlyAct"
+                    android:textColor="@color/c44514D"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rct_t001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin15"
+                    android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                    android:gravity="center_vertical"
+                    android:text="@string/rct_t001"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/rct_t002"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                    android:gravity="center_vertical"
+                    android:text="@string/rct_t002"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/rct_t003"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                    android:gravity="center_vertical"
+                    android:text="@string/rct_t003"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/rct_t004"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                    android:gravity="center_vertical"
+                    android:text="@string/rct_t004"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/rct_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin15"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:background="@drawable/mini_page"
+                    android:drawableTop="@drawable/carat_d_black"
+                    android:paddingTop="@dimen/padding10"
+                    android:text="@string/rct_more"
+                    android:textColor="@color/c44514D" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bottom"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/White"
+                android:text="@string/bottom" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/ast_Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/White"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/ast_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

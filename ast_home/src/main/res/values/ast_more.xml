@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ast_more_logo">logo</string>
+    <string name="ast_more_accountbtn">會員資料</string>
+    <string name="ast_more_weatherbtn">即時天氣</string>
+    <string name="ast_more_mapbtn">路邊停車</string>
+    <string name="ast_more_messagebtn">使用者回饋</string>
+    <string name="ast_parking_hint">搜尋</string>
+</resources>

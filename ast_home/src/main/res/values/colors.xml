@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2C302E</color>
+    <color name="colorPrimaryDark">#343D4A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#ffffff</color>
+    <color name="Red">#ff0000</color>
+    <color name="Yellow">#ffff00</color>
+    <color name="Black">#000000</color>
+    <color name="Blue">#0000ff</color>
+    <color name="Silver">#c0c0c0</color>
+    <color name="Gray">#808080</color>
+    <color name="Maroon">#800000</color>
+    <color name="Olive">#808000</color>
+    <color name="Navy">#000080</color>
+    <color name="Lime">#1eff00</color>
+    <color name="Aqua">#00ffff</color>
+    <color name="Teal">#008080</color>
+    <color name="Fuchsia">#ff00ff</color>
+    <color name="Purple">#800080</color>
+    <color name="c3B614C">#3B614C</color>
+    <color name="c5F6E6A">#5F6E6A</color>
+    <color name="GrayE0E0E0">#E0E0E0</color>
+    <color name="GrayF0F0F0">#F0F0F0</color>
+    <color name="Light_Gray">#0C000000</color>
+    <color name="cTransparent">#00000000</color>
+    <color name="c2C302E">#2C302E</color>
+    <color name="c44514D">#44514D</color>
+    <color name="c74A8A4">#74A8A4</color>
+    <color name="cABD3D4">#ABD3D4</color>
+    <color name="cD6EDEE">#D6EDEE</color>
+</resources>

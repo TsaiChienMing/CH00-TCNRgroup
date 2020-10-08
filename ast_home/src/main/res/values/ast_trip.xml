@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selectday">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="trip_new_time">出發時間</string>
+    <string name="trip_new_name">行程名稱</string>
+    <string name="trip_new_ok">儲存</string>
+    <string name="trip_new_cancel">取消</string>
+    <string name="trip_new_day">天數</string>
+    <string name="trip_new_hint">請輸入行程名稱</string>
+    <string name="newdialog">新建行程</string>
+    <string name="trip_year">年</string>
+    <string name="trip_month">月</string>
+    <string name="trip_day">日</string>
+    <string name="day">天</string>
+    <string name="trip_new_select">請選擇出發日期</string>
+    <string name="trip_new_hint01">請選擇時間</string>
+
+    <string name="plan_name">行程名稱</string>
+    <string name="trip_plandays_pic">在這放圖示</string>
+    <string name="seterror">名稱不得為空白，或時間設定錯誤</string>
+    <string name="error_msg_internet">請重新檢查網路連線</string>
+    <string name="error_back">請使用右上方的按鈕</string>
+    <string name="seterrorname">行程名稱不得為空白</string>
+
+    <string name="ast_detail_sketchhint">點擊景點資訊與導航，左右滑刪除，上下可更換順續</string>
+    <string name="detail_new_attr">新增景點</string>
+    <string name="from_attr">列表搜尋</string>
+    <string name="from_collection">我的收藏</string>
+    <string name="howtouse">使用方法</string>
+    <string name="hintmsg">點擊天數按鈕切換第x天\n1.點擊觀看詳細資訊\n2.向左滑動，刪除行程\n3.按住拖曳，交換排列順序</string>
+    <string name="pleaselogin" >請先登入</string>
+</resources>

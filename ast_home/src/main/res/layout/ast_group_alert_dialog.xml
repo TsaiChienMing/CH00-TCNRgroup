@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    android:background="@color/c44514D"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/group_alert_date"
+        style="@style/MyDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/group_setalert"
+        android:layout_marginTop="10dp"
+        android:background="@color/White"
+        android:calendarViewShown="false"
+        android:theme="@style/MyDatePicker"
+        android:visibility="gone" />
+
+
+    <TimePicker
+        android:id="@+id/group_alert_time"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/c44514D"
+        android:ems="10"
+        android:headerBackground="@color/c44514D"
+        android:inputType="time"
+        android:numbersSelectorColor="@color/c74A8A4"
+        android:timePickerMode="clock" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin30"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/group_alert_calbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mini_page"
+            android:text="@string/group_calbtn"
+            android:textColor="@color/c2C302E"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/group_alert_okbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin10"
+            android:background="@drawable/mini_page"
+            android:text="@string/group_okbtn"
+            android:textColor="@color/c2C302E"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/group_alert_calset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin10"
+            android:background="@drawable/mini_page"
+            android:text="@string/group_calset"
+            android:textColor="@color/c2C302E"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

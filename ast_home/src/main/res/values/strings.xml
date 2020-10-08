@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Become A traveler</string>
+    <string name="item_title_search">探索</string>
+    <string name="item_title_stroke">行程</string>
+    <string name="item_title_group">群組</string>
+    <string name="item_title_more">更多</string>
+    <string name="item_title_collection">收藏</string>
+    <string name="item_title_parking">路邊停車</string>
+    <string name="action_settings">返回</string>
+    <string name="onBackPressed">請按右上返回鍵</string>
+    <string name="action_setting">結束</string>
+    <string name="gps_open">開啟定位</string>
+    <string name="gps_close">關閉定位</string>
+    <string name="descr">無圖片</string>
+
+</resources>

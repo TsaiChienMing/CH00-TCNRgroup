@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whereToGo">想去哪 ?</string>
+    <string name="search">" "</string>
+    <string name="check">查看鄰近地點</string>
+    <string name="home_t_myTrip">我的行程</string>
+    <string name="recentlyAct">近期活動</string>
+    <string name="bottom">" "</string>
+    <string name="rct_t001">2020 大安沙雕音樂祭</string>
+    <string name="rct_t002">翻轉動漫祭</string>
+    <string name="rct_t003">侏羅紀 X 恐龍水世界</string>
+    <string name="rct_t004">SNOOPY 70週年巡迴展</string>
+    <string name="rct_more">查看全部</string>
+    <string name="nearby_title">探索鄰近地點和觀光</string>
+    <string name="account" />
+
+    <string name="login_b001">登入</string>
+    <string name="login_b002">註冊</string>
+    <string name="big_title">A S T R A V E L E R</string>
+    <string name="login_title">登入</string>
+    <string name="h_username">用戶名稱</string>
+    <string name="h_password">密碼</string>
+    <string name="login_confirm">登入</string>
+    <string name="login_cancel">忘記密碼?</string>
+    <string name="register">註冊</string>
+    <string name="register_create">創建帳號</string>
+    <string name="h_cpassword">確認密碼</string>
+    <string name="h_emailorcell" >手機號碼或電子郵件</string>
+    <string name="h_cell" >手機號碼</string>
+    <string name="h_realname">您的大名</string>
+    <string name="noAccount">還沒有帳號嗎?</string>
+    <string name="welcome">歡迎使用Astraveler</string>
+    <string name="startTrips">在此開始您的旅行</string>
+    <string name="agreement">註冊即表示你同意我們的 服務條款 資料政策 和 Cookie 政策。</string>
+    <string name="backToHome">\t以訪客身份繼續使用</string>
+    <string name="forgot_title">忘記密碼了嗎 ?</string>
+    <string name="sendit">送出</string>
+    <string name="h_email">您的電子郵件</string>
+    <string name="explanation">請輸入您申請帳號時所使用的電子郵件地址，我們將發送一條鏈結以重置您的密碼。\n\n出於安全原因，我們不會擁有您的密碼。 因此，請放心，我們不會通過電子郵件向人發送您的個人資料。</string>
+    <string name="forgotpw">忘記密碼</string>
+    <string name="login">登入</string>
+    <string name="logout">登出</string>
+    <string name="ast_lougout_title">確定要登出嗎?</string>
+    <string name="logout_title">確定要登出嗎?</string>
+    <string name="logout_confirm">登出</string>
+    <string name="cancel">取消</string>
+    <string name="trivago">找飯店</string>
+    <string name="site">旅館名稱</string>
+    <string name="address">地址</string>
+
+    <string name="google_login">以Google登入</string>
+    <string name="hotel_title">找飯店</string>
+
+</resources>

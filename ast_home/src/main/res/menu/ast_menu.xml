@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ast_act"
+        android:icon="@mipmap/explore_icon"
+        android:title="首頁" />
+
+    <item
+        android:id="@+id/ast_col"
+        android:icon="@mipmap/heart_icon"
+        android:title="收藏" />
+
+    <item
+        android:id="@+id/ast_trip"
+        android:icon="@mipmap/trips_icon"
+        android:title="行程" />
+
+    <item
+        android:id="@+id/ast_group"
+        android:icon="@mipmap/group_icon"
+        android:title="群組" />
+
+    <item
+        android:id="@+id/ast_more"
+        android:icon="@mipmap/more_icon"
+        android:title="更多" />
+
+</menu>

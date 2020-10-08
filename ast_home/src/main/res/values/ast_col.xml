@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    測試!!  陣列file夾名稱-->
+    <string-array name="filename">
+        <item>AAA</item>
+        <item>BBB</item>
+        <item>CCC</item>
+    </string-array>
+
+    <string name="col_filename">已收藏</string>
+    <string name="col_number">收藏數量</string>
+
+    <!--    view -->
+    <string name="col_list_filename">我的收藏</string>
+    <string name="col_list_num">個收藏</string>
+    <string name="col_view_placename">景點名稱</string>
+    <string name="col_view_action">。。。</string>
+
+    <!--    dialog-->
+    <string name="col_dialog_search">搜尋</string>
+    <string name="col_dialog_btncancel">取消</string>
+    <string name="col_dialog_btnok">確認</string>
+
+    <string name="col_dialog_title01">編輯</string>
+    <string name="col_dialog_filename">檔案名稱</string>
+    <string name="col_dialog_delete">刪除</string>
+    <string name="col_dialog_deltxt">確定刪除此類別?</string>
+
+    <string name="col_dialog_delplace">是否刪除此景點?</string>
+    <string name="col_dialog_txtfrom">從類別</string>
+    <string name="col_dialog_txtto">複製到類別</string>
+
+
+
+    <!--   測試↓-->
+    <string name="btntest">連結測試000</string>
+    <string name="b001">新增資料夾</string>
+    <string name="t001">我的收藏1</string>
+
+    <string name="btn001">移動</string>
+    <string name="btn002">連到陳懿家</string>
+    <string name="col_downloadSQL">資料嘗試下載中，請稍候</string>
+    <string name="col_addbutton">沒有任何收藏，請按此新增</string>
+
+</resources>

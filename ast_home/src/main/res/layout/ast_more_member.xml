@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C000000"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ast_member_title01"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:text="@string/ast_more_login_title"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/ast_member_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:text="@string/ast_more_login_change"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ast_member_title02"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:text="@string/ast_more_other"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/ast_member_chpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:text="@string/ast_more_login_changepwd"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/ast_member_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:text="@string/ast_more_logout_title"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

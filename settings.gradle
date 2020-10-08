@@ -1,0 +1,2 @@
+include ':ast_home'
+rootProject.name = "CH00-TCNRgroup1"

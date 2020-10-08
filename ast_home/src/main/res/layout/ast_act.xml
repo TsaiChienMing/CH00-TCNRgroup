@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ast_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Light_Gray"
+    tools:context=".Ast_act">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/act_progressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="50"
+                android:progressTint="@color/c74A8A4"
+                android:secondaryProgressTint="@color/cD6EDEE"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/act_contentdes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_marginBottom="@dimen/margin10"
+                android:gravity="center"
+                android:text="@string/act_t003"
+                android:textColor="@color/c44514D"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridView
+                android:id="@+id/act_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/White"
+                android:columnWidth="200dp"
+                android:gravity="start"
+                android:numColumns="2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/GrayF0F0F0"
+        app:layout_constraintBottom_toTopOf="@+id/ast_Bottom">
+
+        <Spinner
+            android:id="@+id/act_placeselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin10"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@color/c74A8A4"
+            android:entries="@array/act_a001"
+            android:prompt="@string/act_s001"
+            android:spinnerMode="dropdown"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/act_chgselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@color/c74A8A4"
+            android:entries="@array/act_a002"
+            android:spinnerMode="dropdown"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/act_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin10"
+            android:layout_marginTop="@dimen/margin10"
+            android:layout_marginEnd="@dimen/margin10"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:ems="10"
+            android:hint="@string/act_b001"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/act_searchbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10"
+            android:layout_marginEnd="@dimen/margin10"
+            android:layout_marginBottom="@dimen/margin10"
+            android:background="@drawable/transparent_btn"
+            android:text="@string/act_b001"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/act_cancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10"
+            android:layout_marginEnd="@dimen/margin10"
+            android:layout_marginBottom="@dimen/margin10"
+            android:background="@drawable/transparent_btn"
+            android:text="@string/ast_more_login_canclebtn"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/ast_Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        app:itemBackground="@color/White"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@color/design_default_color_on_secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/ast_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

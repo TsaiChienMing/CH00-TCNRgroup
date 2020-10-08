@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ast_point_googlesearch"
+        android:icon="@mipmap/search_icon"
+        android:orderInCategory="1000"
+        android:title="@string/ast_point_googlesearch" />
+    <item
+        android:id="@+id/ast_googlemap"
+        android:icon="@mipmap/map_icon"
+        android:orderInCategory="2000"
+        android:title="@string/ast_point_googlemap" />
+    <item
+        android:id="@+id/ast_point_collect"
+        android:icon="@mipmap/heart_icon"
+        android:orderInCategory="3000"
+        android:title="@string/item_title_collection" />
+    <item
+        android:id="@+id/ast_point_addplan"
+        android:icon="@mipmap/addtotrips_icon"
+        android:orderInCategory="4000"
+        android:title="@string/ast_point_dladdclt_t002" />
+    <item
+        android:id="@+id/ast_point_TTS"
+        android:icon="@mipmap/tts_icon"
+        android:orderInCategory="5000"
+        android:title="@string/ast_point_TTS" />
+</menu>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mini_page"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding20">
+
+    <TextView
+        android:id="@+id/startTrips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/startTrips"
+        android:textColor="@color/c5F6E6A"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/signup_phone"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_cell"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_realname"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_password"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/signup_cpassword"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_cpassword"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/signup_create"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_rectangle"
+            android:text="@string/register_create"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/signup_cancle"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_rectangle"
+            android:text="@string/cancel"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginBottom="@dimen/margin10"
+        android:gravity="center"
+        android:text="@string/agreement" />
+
+</LinearLayout>

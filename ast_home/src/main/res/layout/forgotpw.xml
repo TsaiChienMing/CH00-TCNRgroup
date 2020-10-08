@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mini_page"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding15">
+
+    <TextView
+        android:id="@+id/forgotpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin10"
+        android:gravity="center"
+        android:text="@string/forgot_title"
+        android:textColor="@color/c5F6E6A"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="@dimen/margin15"
+        android:text="@string/explanation"
+        android:textColor="@color/c5F6E6A" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_email"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/forgetpwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_password"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/forgetpwd2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:background="@drawable/ask_box"
+        android:hint="@string/h_cpassword"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/padding15"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/forgot_send"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginBottom="@dimen/margin20"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_rectangle"
+        android:text="@string/sendit"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="act_t001">位置: </string>
+    <string name="act_s001">台中</string>
+    <string name="act_t002">類別: </string>
+    <string name="act_b001">搜尋</string>
+    <string name="hint">手動輸入</string>
+    <string name="act_t003">台中景點OpenData</string>
+    <string name="act_download">資料連線下載中，請稍候</string>
+    <string name="act_progress">資料寫入更新中，請勿關閉頁面</string>
+    <string name="act_update">更新資料庫</string>
+    <string name="update_message">此OPENDATA資料庫內容，\n約一年更新一次，\n您確定要手動更新?</string>
+    <string name="update_check">檢查更新</string>
+    <string name="update_cancel">取消</string>
+    <string name="update_message_cancel">您現在擁有的資料庫已是最新版，\n不須更新!</string>
+    <string name="update_force">強制更新</string>
+    <string name="act_about">關於資料內容</string>
+    <string name="about_ok">關閉對話</string>
+    <string name="about_link">台中觀光旅遊網</string>
+    <string name="about_site">我們的網站</string>
+    <string name="about_message">此處資料皆取自於\"臺中觀光旅遊網\"，\n以及中部觀光景點OPENDATA，\n本APP不營利，僅作練習及推廣之用</string>
+    <string-array name="act_a001">
+        <item>我的位置</item>
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>台中市</item>
+        <item>高雄市</item>
+        <item>基隆市</item>
+        <item>新竹市</item>
+        <item>嘉義市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義縣</item>
+        <item>屏東縣</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>台東縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+    <string-array name="act_a002">
+        <item>景點</item>
+        <item>美食小吃</item>
+        <item>旅館</item>
+        <item>加油站</item>
+        <item>超商</item>
+    </string-array>
+
+    <string name="error_api_key">api key沒有在secure.property內設置好</string>
+    <string name="findCurrentPlace">探索附近景點</string>
+    <string name="findCurrentPlace_message">因為搜尋功能會扣額度，\n一天僅能負擔約50次搜尋，\n沒有結果就是超過額度，\n目前僅能加收藏，請不要加入行程</string>
+    <string name="findCurrentPlace_chk">確認</string>
+    <string name="findCurrentPlace_cancel">取消搜尋</string>
+    <string name="place_no_location">GPS未開啟，請先開啟定位</string>
+    <string name="place_useFine_GPS">使用精確GPS</string>
+    <string name="place_use_NETWORK">使用網路GPS</string>
+    <string name="place_no_GPS">GPS 未開啟</string>
+    <string name="test_button">測試新增用</string>
+    <string name="act_t004">請選擇台中景點</string>
+    <string name="checkINTERNET">沒有網路或者無法連線</string>
+</resources>
